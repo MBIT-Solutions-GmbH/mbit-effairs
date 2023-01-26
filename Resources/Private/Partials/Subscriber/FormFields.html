@@ -1,0 +1,111 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<input type="text" value="" id="subject" autofill="off" name="subject"/>
+<label for="salutation">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.salutation"/>
+</label><br/>
+<f:form.select property="salutation" options="{salutations}" class="form-control"/>
+<br/>
+<label for="title">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.title"/>
+</label><br/>
+<f:form.textfield property="title" class="form-control"/>
+<br/>
+<label for="company">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.company"/>
+</label><br/>
+<f:form.textfield property="company" class="form-control"/>
+<br/>
+<label for="firstname">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.firstname"/>
+</label><br/>
+<f:form.textfield property="firstname" class="form-control"/>
+<br/>
+<label for="lastname">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.lastname"/>
+</label><br/>
+<f:form.textfield property="lastname" class="form-control"/>
+<f:form.validationResults for="newSubscriber.lastname">
+    <f:if condition="{validationResults.flattenedErrors}">
+        <div class="help-block">
+            <f:for each="{validationResults.errors}" as="error">
+                {error}
+            </f:for>
+        </div>
+    </f:if>
+</f:form.validationResults>
+<br/>
+<label for="street">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.street"/>
+</label><br/>
+<f:form.textfield property="street" class="form-control"/>
+<br/>
+<label for="postcode">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.postcode"/>
+</label><br/>
+<f:form.textfield property="postcode" class="form-control"/>
+<br/>
+<label for="city">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.city"/>
+</label><br/>
+<f:form.textfield property="city" class="form-control"/>
+<br/>
+<label for="country">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.country"/>
+</label><br/>
+<f:form.textfield property="country" class="form-control"/>
+<br/>
+<label for="phone">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.phone"/>
+</label><br/>
+<f:form.textfield property="phone" class="form-control"/>
+<br/>
+<label for="fax">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.fax"/>
+</label><br/>
+<f:form.textfield property="fax" class="form-control"/>
+<br/>
+<label for="mobile">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.mobile"/>
+</label><br/>
+<f:form.textfield property="mobile" class="form-control"/>
+<br/>
+<label for="email">
+    <f:translate key="tx_mbiteffairs_domain_model_subscriber.email"/>
+    <span class="required">*</span>
+</label><br/>
+<f:form.textfield property="email" type="email" required="required" class="form-control"/>
+<f:form.validationResults for="newSubscriber.email">
+    <f:if condition="{validationResults.flattenedErrors}">
+        <div class="help-block">
+            <f:for each="{validationResults.errors}" as="error">
+                {error}
+            </f:for>
+        </div>
+    </f:if>
+</f:form.validationResults>
+<br/>
+<div class="checkbox">
+    <label>
+        <f:form.checkbox property="tracking" value="1" />
+        <f:translate key="tx_mbiteffairs_domain_model_subscriber.tracking"/>
+    </label>
+</div>
+
+<f:if condition="{channels}">
+    <f:for each="{channels}" as="channel">
+        <f:if condition="{channel.checked} == 1">
+            <f:then>
+                <f:form.checkbox name="channel[{channel.key}]" id="{channel.key}" checked="checked" value="{channel.key}"/>
+            </f:then>
+            <f:else>
+                <f:form.checkbox name="channel[{channel.key}]" id="{channel.key}" value="{channel.key}"/>
+            </f:else>
+        </f:if>
+        <label for="{channel.key}">
+            {channel.value}
+        </label>
+        <br>
+    </f:for>
+    <br>
+</f:if>
+</html>

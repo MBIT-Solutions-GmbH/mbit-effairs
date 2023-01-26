@@ -1,0 +1,32 @@
+# CHANGE: File extension from .ts to .typoscrypt
+plugin.tx_mbiteffairs_subscription {
+  view {
+    # cat=plugin.tx_mbiteffairs_subscription/file; type=string; label=Path to template root (FE)
+    templateRootPath = EXT:mbit_effairs/Resources/Private/Templates/
+    # cat=plugin.tx_mbiteffairs_subscription/file; type=string; label=Path to template partials (FE)
+    partialRootPath = EXT:mbit_effairs/Resources/Private/Partials/
+    # cat=plugin.tx_mbiteffairs_subscription/file; type=string; label=Path to template layouts (FE)
+    layoutRootPath = EXT:mbit_effairs/Resources/Private/Layouts/
+  }
+  persistence {
+    # cat=plugin.tx_mbiteffairs_subscription//a; type=string; label=Default storage PID
+    storagePid = 
+  }
+}
+
+plugin.tx_mbiteffairs_unsubscription {
+  view {
+    # cat=plugin.tx_mbiteffairs_unsubscription/file; type=string; label=Path to template root (FE)
+    templateRootPath = EXT:mbit_effairs/Resources/Private/Templates/
+    # cat=plugin.tx_mbiteffairs_unsubscription/file; type=string; label=Path to template partials (FE)
+    partialRootPath = EXT:mbit_effairs/Resources/Private/Partials/
+    # cat=plugin.tx_mbiteffairs_unsubscription/file; type=string; label=Path to template layouts (FE)
+    layoutRootPath = EXT:mbit_effairs/Resources/Private/Layouts/
+  }
+  persistence {
+    # cat=plugin.tx_mbiteffairs_unsubscription//a; type=string; label=Default storage PID
+    storagePid = 
+  }
+}
+
+## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder

@@ -1,0 +1,27 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Plugin Optionen</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.channels>
+						<TCEforms>
+							<label>Channels</label>
+							<config>
+								<type>text</type>
+								<size>10</size>
+								<rows>5</rows>
+							</config>
+						</TCEforms>
+					</settings.channels>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

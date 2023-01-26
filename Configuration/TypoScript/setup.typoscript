@@ -1,0 +1,98 @@
+# CHANGE: File extension from .ts to .typoscrypt
+plugin.tx_mbiteffairs_subscription {
+  view {
+    templateRootPaths.0 = EXT:mbit_effairs/Resources/Private/Templates/
+    templateRootPaths.1 = {$plugin.tx_mbiteffairs_subscription.view.templateRootPath}
+    partialRootPaths.0 = EXT:mbit_effairs/Resources/Private/Partials/
+    partialRootPaths.1 = {$plugin.tx_mbiteffairs_subscription.view.partialRootPath}
+    layoutRootPaths.0 = EXT:mbit_effairs/Resources/Private/Layouts/
+    layoutRootPaths.1 = {$plugin.tx_mbiteffairs_subscription.view.layoutRootPath}
+  }
+  persistence {
+    storagePid = {$plugin.tx_mbiteffairs_subscription.persistence.storagePid}
+    #recursive = 1
+  }
+  features {
+    #skipDefaultArguments = 1
+  }
+  mvc {
+    #callDefaultActionIfActionCantBeResolved = 1
+  }
+}
+
+plugin.tx_mbiteffairs_unsubscription {
+  view {
+    templateRootPaths.0 = EXT:mbit_effairs/Resources/Private/Templates/
+    templateRootPaths.1 = {$plugin.tx_mbiteffairs_unsubscription.view.templateRootPath}
+    partialRootPaths.0 = EXT:mbit_effairs/Resources/Private/Partials/
+    partialRootPaths.1 = {$plugin.tx_mbiteffairs_unsubscription.view.partialRootPath}
+    layoutRootPaths.0 = EXT:mbit_effairs/Resources/Private/Layouts/
+    layoutRootPaths.1 = {$plugin.tx_mbiteffairs_unsubscription.view.layoutRootPath}
+  }
+  persistence {
+    storagePid = {$plugin.tx_mbiteffairs_unsubscription.persistence.storagePid}
+    #recursive = 1
+  }
+  features {
+    #skipDefaultArguments = 1
+  }
+  mvc {
+    #callDefaultActionIfActionCantBeResolved = 1
+  }
+}
+
+plugin.tx_mbiteffairs._CSS_DEFAULT_STYLE (
+    textarea.f3-form-error {
+        background-color:#FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    input.f3-form-error {
+        background-color:#FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    .tx-mbit-effairs table {
+        border-collapse:separate;
+        border-spacing:10px;
+    }
+
+    .tx-mbit-effairs table th {
+        font-weight:bold;
+    }
+
+    .tx-mbit-effairs table td {
+        vertical-align:top;
+    }
+
+    .typo3-messages .message-error {
+        color:red;
+    }
+
+    .typo3-messages .message-ok {
+        color:green;
+    }
+
+    #subject {
+        display:none !important;
+    }
+)
+
+## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder
+
+plugin.tx_mbiteffairs.settings {
+
+  ClientSource = typo3ext-mbit_effairs
+
+  Captcha = 0
+  CaptchaSitekey = Testkey
+
+  OptinPageId = 12
+  UnsubscribePageId = 6
+
+  ApiURLOptin = http://api.effairs.at/api/42/Contact/OptinEmail
+  ApiURLOptout = http://api.effairs.at/api/42/Contact/OptoutEmail
+  TenantId = 42
+  AppKey = XoBiAWNiIUD=
+  AppSecret = IAJhX2sxRS==
+}

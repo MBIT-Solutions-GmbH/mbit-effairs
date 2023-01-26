@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2017-08-22T10:45:00Z" product-name="mbit_effairs">
+		<header/>
+		<body>
+			<trans-unit id="tx_mbit_effairs_domain_model_subscription">
+				<source>Subscription</source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_subscription.description">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_unsubscription">
+				<source>Unsubscription</source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_unsubscription.description">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="salutation.description">
+				<source>salutation</source>
+			</trans-unit>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="company.description">
+				<source>company</source>
+			</trans-unit>
+			<trans-unit id="firstname.description">
+				<source>firstname</source>
+			</trans-unit>
+			<trans-unit id="lastname.description">
+				<source>lastname</source>
+			</trans-unit>
+			<trans-unit id="street.description">
+				<source>street</source>
+			</trans-unit>
+			<trans-unit id="postcode.description">
+				<source>postcode</source>
+			</trans-unit>
+			<trans-unit id="city.description">
+				<source>city</source>
+			</trans-unit>
+			<trans-unit id="country.description">
+				<source>country</source>
+			</trans-unit>
+			<trans-unit id="phone.description">
+				<source>phone</source>
+			</trans-unit>
+			<trans-unit id="fax.description">
+				<source>fax</source>
+			</trans-unit>
+			<trans-unit id="mobile.description">
+				<source>mobile</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>email</source>
+			</trans-unit>
+			<trans-unit id="tracking.description">
+				<source>tracking</source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_subscription">
+				<source>Subscription</source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_subscription.description">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_unsubscription">
+				<source>Unsubscription</source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_unsubscription.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

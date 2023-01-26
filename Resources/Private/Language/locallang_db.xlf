@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2017-08-22T10:45:00Z" product-name="mbit_effairs">
+		<header/>
+		<body>
+			<trans-unit id="tx_mbit_effairs_domain_model_subscription">
+				<source>Subscription</source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_subscription.description">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_unsubscription">
+				<source>Unsubscription</source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_unsubscription.description">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber">
+				<source>Subscriber</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.salutation">
+				<source>Salutation</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.company">
+				<source>Company</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.firstname">
+				<source>Firstname</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.lastname">
+				<source>Lastname</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.street">
+				<source>Street</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.postcode">
+				<source>Postcode</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.country">
+				<source>Country</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.fax">
+				<source>Fax</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.mobile">
+				<source>Mobile</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.tracking">
+				<source>Tracking</source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_subscription">
+				<source>Subscription</source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_subscription.description">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_unsubscription">
+				<source>Unsubscription</source>
+			</trans-unit>
+			<trans-unit id="tx_mbit_effairs_domain_model_unsubscription.description">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.subscribebutton">
+				<source>Subscribe</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.unsubscribebutton">
+				<source>Unsubscribe</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.alreadysubscribed">
+				<source>This email address is already registered.</source>
+			</trans-unit>
+			<trans-unit id="tx_mbiteffairs_domain_model_subscriber.unsubscribenotfound">
+				<source>This email address is not registered.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
