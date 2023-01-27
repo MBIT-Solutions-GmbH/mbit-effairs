@@ -87,12 +87,12 @@ plugin.tx_mbiteffairs.settings {
   Captcha = 0
   CaptchaSitekey = Testkey
 
-  OptinPageId = 12
-  UnsubscribePageId = 6
+  OptinPageId = 1
+  UnsubscribePageId = 2
 
   ApiURLOptin = http://api.effairs.at/api/42/Contact/OptinEmail
   ApiURLOptout = http://api.effairs.at/api/42/Contact/OptoutEmail
-  TenantId = 42
-  AppKey = XoBiAWNiIUD=
-  AppSecret = IAJhX2sxRS==
+  TenantId = 1
+  AppKey = xxxxx
+  AppSecret = xxxxx
 }
