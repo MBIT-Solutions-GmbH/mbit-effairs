@@ -30,3 +30,21 @@ plugin.tx_mbiteffairs_unsubscription {
 }
 
 ## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder
+
+
+plugin.tx_mbiteffairs.settings {
+
+  ClientSource = typo3ext-mbit_effairs
+
+  Captcha = 0
+  CaptchaSitekey = Captchakey
+
+  OptinPageId = 1
+  UnsubscribePageId = 2
+
+  ApiURLOptin = http://api.effairs.at/api/TenantId/Contact/OptinEmail
+  ApiURLOptout = http://api.effairs.at/api/TenantId/Contact/OptoutEmail
+  TenantId = 1
+  AppKey = xxxxx
+  AppSecret = xxxxx
+}
