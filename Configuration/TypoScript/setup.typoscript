@@ -84,15 +84,15 @@ plugin.tx_mbiteffairs.settings {
 
   ClientSource = typo3ext-mbit_effairs
 
-  Captcha = 0
-  CaptchaSitekey = Testkey
+  Captcha = {$plugin.tx_mbiteffairs.settings.Captcha}
+  CaptchaSitekey = {$plugin.tx_mbiteffairs.settings.CaptchaSitekey}
 
-  OptinPageId = 1
-  UnsubscribePageId = 2
+  OptinPageId = {$plugin.tx_mbiteffairs.settings.OptinPageId}
+  UnsubscribePageId = {$plugin.tx_mbiteffairs.settings.UnsubscribePageId}
 
-  ApiURLOptin = http://api.effairs.at/api/42/Contact/OptinEmail
-  ApiURLOptout = http://api.effairs.at/api/42/Contact/OptoutEmail
-  TenantId = 1
-  AppKey = xxxxx
-  AppSecret = xxxxx
+  ApiURLOptin = {$plugin.tx_mbiteffairs.settings.ApiURLOptin}
+  ApiURLOptout = {$plugin.tx_mbiteffairs.settings.ApiURLOptout}
+  TenantId = {$plugin.tx_mbiteffairs.settings.TenantId}
+  AppKey = {$plugin.tx_mbiteffairs.settings.AppKey}
+  AppSecret = {$plugin.tx_mbiteffairs.settings.AppSecret}
 }
