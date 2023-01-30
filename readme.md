@@ -7,7 +7,7 @@ Effairs by MBIT is a TYPO3 11 extension that allows you to create and automatica
 This extension can be installd via composer: 
 
 ```
-composer require "mbit/mbit_effairs"
+composer require "mbit/mbit-effairs"
 ```
 
 The configuration of this extenion can be done by overwriting its constants in your sitepackages constants.typoscript like this:
